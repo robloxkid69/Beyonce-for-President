@@ -1,0 +1,95 @@
+<!DOCTYPE html> <html><head>
+    <title>Beyonce for President</title>
+<style>body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: white;
+    background-image: url("http://rs146.pbsrc.com/albums/r270/DahliaxGraphics/Glitter/StarryNight.gif~c200");
+}
+
+#donate {
+    background: red;
+}
+#eagles {
+    background: blue;
+    color: white;
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}</style></head>
+<body>
+    <div id="header">
+        <h1>Beyonce</h1>
+        <p> Make America Bey Again</p>
+    </div>
+    <div id="donate">
+        <h2>Donate Now</h2>
+        <p>Invest $1 billion into Beyonce ideas.</p>
+        <button>Donate</button>
+    </div>
+    <div id="pics">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/A15dQM39ELL._CR0,0,3840,2880_._SL1000_.jpg">
+        <img src="https://pmcvariety.files.wordpress.com/2017/09/beyonce.png">
+        <img src="https://i1.wp.com/thenet.ng/wp-content/uploads/2016/07/Beyonce-IASF-beyonce-32700249-1280-960.jpg?fit=1280%2C960">
+    </div>
+    <div id="eagles">
+        <h2>The "Run the World" Initiative</h2>
+        <p>If elected, I promise to grow an orchard of lemon trees in every major US city for the most impecable lemonade you will ever taste.</p>
+    </div>
+
+
+</body></html>
